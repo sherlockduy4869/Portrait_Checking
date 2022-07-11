@@ -1,8 +1,37 @@
-.user_input form input{
-    display: block;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.user_input{
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    padding: 20px 30px;
+}
+
+.user_input h1{
+    margin-bottom: 50px;
+}
+
+.user_input form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .user_input form input{
-    width: 100px;
+    width: 200px;
+    margin-bottom: 12px;
+    font-size: 14px;
     height: 30px;
 }
+
